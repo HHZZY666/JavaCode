@@ -18,7 +18,7 @@ public class B extends A{
     }
     public void sum() {
         System.out.println("B 类的 sum()");
-        //希望调用父类-A 的 cal 方法
+        //希望调用父类 A 的 cal 方法
         //这时，因为子类 B 没有 cal 方法，因此我可以使用下面三种方式
         //找 cal 方法时(cal() 和 this.cal())，顺序是:
         // (1)先找本类，如果有，则调用
