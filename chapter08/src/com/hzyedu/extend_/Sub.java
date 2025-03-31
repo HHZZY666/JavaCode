@@ -1,5 +1,6 @@
 package com.hzyedu.extend_;
 
+//输入ctrl + H 可以看见类的继承关系
 public class Sub extends Base {
     public Sub() {
         //super();//默认调用父类的无参构造器
