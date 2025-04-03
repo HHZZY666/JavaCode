@@ -1,7 +1,7 @@
 package com.hzyedu.poly_.polyarr;
 
 public class Teacher extends Person{
-    public double salary;
+    private double salary;
 
     public Teacher(String name , int age, double salary){
         super(name,age);
@@ -19,6 +19,11 @@ public class Teacher extends Person{
 
     @Override
     public String say() {
-        return super.say() + "salary = " + salary;
+        return "老师" + super.say() + "salary = " + salary;
+    }
+
+    //特有方法
+    public void teach(){
+        System.out.println("老师 " + getName() + " 正在讲Java课程...");
     }
 }

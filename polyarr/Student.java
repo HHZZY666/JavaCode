@@ -16,8 +16,13 @@ public class Student extends Person {
         this.score = score;
     }
     //重写父类say
-
+    @Override
     public String say(){
-        return super.say() + "score = " + score;
+        return "学生" + super.say() + "score = " + score;
+    }
+
+    //特有方法
+    public void study(){
+        System.out.println("学生 " + getName() + " 正在学Java课程...");
     }
 }
