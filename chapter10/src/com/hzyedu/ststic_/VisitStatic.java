@@ -16,5 +16,6 @@ class A{
     //类变量
     //类变量的访问，必须遵守相关访问权限
     public static String name = "韩顺平教育";
-
+    //普通属性/普通成员变量/非静态属性/非静态成员变量
+    private int num = 10;
 }
