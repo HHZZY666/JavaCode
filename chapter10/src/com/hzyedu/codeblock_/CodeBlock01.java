@@ -18,7 +18,7 @@ class Movie{
     //三个构造器中都有相同语句，比较冗余，可以放在一个代码块中
     //当我们不管调用哪个构造器创建对象，都会先调用代码块的内容
     //代码块调用优先于构造器
-    {
+    static {
         System.out.println("电影屏幕打开...");
         System.out.println("广告开始...");
         System.out.println("电影正式开始...");
