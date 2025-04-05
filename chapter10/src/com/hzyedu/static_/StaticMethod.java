@@ -1,4 +1,4 @@
-package com.hzyedu.ststic_;
+package com.hzyedu.static_;
 
 public class StaticMethod {
     public static void main(String[] args) {
