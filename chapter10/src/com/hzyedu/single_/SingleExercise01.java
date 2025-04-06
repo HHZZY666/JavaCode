@@ -1,5 +1,6 @@
 package com.hzyedu.single_;
 
+//饿汉式
 public class SingleExercise01 {
     public static void main(String[] args) {
         Cat2 instance = Cat2.getInstance();
