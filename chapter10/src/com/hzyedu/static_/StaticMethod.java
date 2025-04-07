@@ -7,7 +7,7 @@ public class StaticMethod {
         tom.payFee(100);
 
         Student marry = new Student("marry");
-        tom.payFee(200);
+        marry.payFee(200);
 
         //输出当前收到的总学费
         Student.showFee();
