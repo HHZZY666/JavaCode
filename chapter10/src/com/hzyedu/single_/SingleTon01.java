@@ -2,9 +2,9 @@ package com.hzyedu.single_;
 
 public class SingleTon01 {
     public static void main(String[] args) {
-// GirlFriend xh = new GirlFriend("小红");
-// GirlFriend xb = new GirlFriend("小白");
-//通过方法可以获取对象
+        // GirlFriend xh = new GirlFriend("小红");
+        // GirlFriend xb = new GirlFriend("小白");
+        //通过方法可以获取对象
         GirlFriend instance = GirlFriend.getInstance();
         System.out.println(instance);
         GirlFriend instance2 = GirlFriend.getInstance();
@@ -21,7 +21,7 @@ class GirlFriend {
     String name;
     //public static int n1 = 100;
     //为了能够在静态方法中，返回 gf 对象，需要将其修饰为 static
-    //對象，通常是重量級的對象, 餓漢式可能造成創建了對象，但是沒有使用.
+    //对象，通常是重量級的对象, 饿汉式可能造成创建了对象，但是没有使用.
     private static GirlFriend gf = new GirlFriend("小红红");
     //如何保障我们只能创建一个 GirlFriend 对象
     //步骤[单例模式-饿汉式]
