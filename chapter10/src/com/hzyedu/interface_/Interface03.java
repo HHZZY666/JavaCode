@@ -10,6 +10,6 @@ public class Interface03 {
 
     public static void t(DBInterface db){
         db.connect();
-        db.close();
+         db.close();
     }
 }
