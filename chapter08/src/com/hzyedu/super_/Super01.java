@@ -5,7 +5,7 @@ public class Super01 {
     public static void main(String[] args) {
         int n1 = 666;
         B b = new B();//子类对象
-//b.sum();
+        //b.sum();
         b.test();
     }
 }

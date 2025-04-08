@@ -39,7 +39,7 @@ public class B extends A{
         // 如果查找属性的过程中，没有找到，则提示属性不存在
         System.out.println(n1);
         System.out.println(this.n1);
-//找 n1 (super.n1) 的顺序是直接查找父类属性，其他的规则一样
+        //找 n1 (super.n1) 的顺序是直接查找父类属性，其他的规则一样
         System.out.println(super.n1);
     }
     //访问父类的方法，不能访问父类的 private 方法 super.方法名(参数列表);
@@ -47,12 +47,12 @@ public class B extends A{
         super.test100();
         super.test200();
         super.test300();
-//super.test400();//不能访问父类 private 方法
+        //super.test400();//不能访问父类 private 方法
     }
     //访问父类的构造器(这点前面用过)：super(参数列表);只能放在构造器的第一句，只能出现一句！
     public B() {
-//super();
-//super("jack", 10);
+        //super();
+        //super("jack", 10);
         super("jack");
     }
 }
