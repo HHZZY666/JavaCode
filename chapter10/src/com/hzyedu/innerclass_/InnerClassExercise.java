@@ -1,6 +1,5 @@
 package com.hzyedu.innerclass_;
 
-import com.hzyedu.abstract_.AA;
 public class InnerClassExercise {
     public static void main(String[] args) {
 //当做实参直接传递，简洁高效
