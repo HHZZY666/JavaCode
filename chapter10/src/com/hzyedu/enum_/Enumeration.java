@@ -1,13 +1,10 @@
 package com.hzyedu.enum_;
 
-/**
- * @author 韩顺平
- * @version 1.0
- */
 public class Enumeration {
     public static void main(String[] args) {
         System.out.println(Season2.AUTUMN);
         System.out.println(Season2.SUMMER);
+        System.out.println(Season2.WINTER);
     }
 }
 
@@ -20,9 +17,8 @@ enum Season2 {//类
     // public static final Season SUMMER = new Season("夏天", "炎热");
     //如果使用了 enum 来实现枚举类
     //1. 使用关键字 enum 替代 class
-    //2. public static final Season SPRING = new Season("春天", "温暖") 直接使用
-    // SPRING("春天", "温暖") 解读 常量名(实参列表)
-    //3. 如果有多个常量(对象)， 使用 ,号间隔即可
+    //2. public static final Season SPRING = new Season("春天", "温暖") 直接使用 SPRING("春天", "温暖") 解读 常量名(实参列表)
+    //3. 如果有多个常量(对象)， 使用 , 号间隔即可
     //4. 如果使用 enum 来实现枚举，要求将定义常量对象，写在前面
     //5. 如果我们使用的是无参构造器，创建常量对象，则可以省略 ()
     SPRING("春天", "温暖"), WINTER("冬天", "寒冷"), AUTUMN("秋天", "凉爽"), SUMMER("夏天", "炎热")/*, What()*/;
@@ -47,9 +43,6 @@ enum Season2 {//类
 
     @Override
     public String toString() {
-        return "Season{" +
-                "name='" + name + '\'' +
-                ", desc='" + desc + '\'' +
-                '}';
+        return "Season{" + "name='" + name + '\'' + ", desc='" + desc + '\'' + '}';
     }
 }
