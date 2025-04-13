@@ -23,12 +23,12 @@ class Outer04 { //外部类
         //6. tiger 的运行类型 ? 就是匿名内部类 Outer04$1
         /*
         我们看底层 会分配 类名 Outer04$1
-        class Outer04$1 implements IA {
-        @Override
-        public void cry() {
-        System.out.println("老虎叫唤...");
-        }
-        }
+            class Outer04$1 implements IA {
+                @Override
+                public void cry() {
+                    System.out.println("老虎叫唤...");
+                }
+            }
         */
         //7. jdk 底层在创建匿名内部类 Outer04$1,立即马上就创建了 Outer04$1 实例，并且把地址
         // 返回给 tiger
