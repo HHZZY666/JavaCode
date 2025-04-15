@@ -1,4 +1,4 @@
-package src.com.hzyedu_.try_;
+package com.hzyedu_.try_;
 
 public class TryCatchDetail03 {
     public static void main(String[] args) {

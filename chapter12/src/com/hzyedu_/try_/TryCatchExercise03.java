@@ -1,4 +1,4 @@
-package src.com.hzyedu_.try_;
+package com.hzyedu_.try_;
 
 public class TryCatchExercise03 {
 }
@@ -17,11 +17,11 @@ class Exception03{
         } catch (ArrayIndexOutOfBoundsException e) {
             return 2;
         } catch (NullPointerException e){
-            return ++i;
+            return ++i; //i=3 => 保存临时变量 temp = 3; ，最后返回此条，也就是3
         }
         finally {
-            ++i;
-            System.out.println("i = " + i);
+            ++i; //i=4
+            System.out.println("i = " + i); //i = 4
         }
     }
 
