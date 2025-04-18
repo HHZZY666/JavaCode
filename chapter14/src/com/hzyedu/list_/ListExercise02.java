@@ -13,7 +13,6 @@ public class ListExercise02 {
         list.add(new Book("西游记","吴承恩",10));
         list.add(new Book("水浒传","施耐庵",19));
         list.add(new Book("三国","罗贯中",80));
-        //list.add(new Book("西游记","吴承恩",10));
 
         //遍历
         for(Object obj : list){
