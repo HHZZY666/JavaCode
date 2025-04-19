@@ -23,6 +23,15 @@ public class HashSetStructure {
         table[3] = lucy; //把lucy放到table表的索引为3的位置
 
         System.out.println("table = " + table);
+
+        for (Node node : table) {
+            Node current = node;
+            while (current != null) {
+                System.out.println(current.item);
+                current = current.next;
+            }
+        }
+
     }
 }
 
