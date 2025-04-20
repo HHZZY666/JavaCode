@@ -54,7 +54,7 @@ class Tiger<E> {//类
 }
 class A {}
 class B extends A {}
-class Pig<E> {//
+class Pig<E> {
     E e;
     public Pig(E e) {
         this.e = e;
