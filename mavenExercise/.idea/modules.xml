@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ExerciseCode.iml" filepath="$PROJECT_DIR$/ExerciseCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mavenExercise/mavenExercise.iml" filepath="$PROJECT_DIR$/mavenExercise/mavenExercise.iml" />
     </modules>
   </component>
 </project>
