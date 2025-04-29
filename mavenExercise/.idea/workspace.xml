@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8d5f251-6446-4eb8-b213-2e775661fe7e" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenExercise/mavenExercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mavenExercise/mavenExercise.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavenExercise/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mavenExercise/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e8d5f251-6446-4eb8-b213-2e775661fe7e" name="变更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +39,7 @@
       <updated>1745723466348</updated>
       <workItem from="1745723467438" duration="2981000" />
       <workItem from="1745812578443" duration="2259000" />
-      <workItem from="1745833008087" duration="1406000" />
+      <workItem from="1745833008087" duration="1830000" />
     </task>
     <servers />
   </component>
